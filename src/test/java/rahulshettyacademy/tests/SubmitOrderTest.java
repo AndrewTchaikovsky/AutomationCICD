@@ -51,5 +51,7 @@ public class SubmitOrderTest extends BaseTest {
 		OrderPage orderPage = productCatalogue.goToOrdersPage();
 		Assert.assertTrue(orderPage.VerifyOrderDisplay(productName));
 	}
+	
+	// THIS IS THE ADDITIONAL CODE FOR THE GITHUB PURPOSE
 
 }
